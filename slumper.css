@@ -1,0 +1,76 @@
+body{
+background-color: rgba(0, 0, 0, 0.795);
+color: white;
+
+background-size: 100%, 100%;
+background-image: url('bay-bridge.jpg');
+background-repeat: no-repeat;
+background-size: cover; 
+
+}
+
+ul {
+    list-style-type: none;
+    margin:-5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgba(56, 1, 56, 0.803);
+}
+
+
+.heading{
+  color: rgba(255, 255, 255, 0.72);
+  text-shadow:.5px .5px rgba(56, 1, 56, 0.803);
+  
+ 
+
+}
+
+
+p{
+  color: white;
+}
+button{
+background-color:rgba(56, 1, 56, 0.659);
+width: 160px;
+border-width: 1.5px;
+border-color:rgba(56, 1, 56, 0.659);
+border-radius: 9%;
+color: black;
+}
+#registration{
+    
+    float: left;
+    width:120px;
+    margin-left: 42.5%;
+    margin-top: 10%;
+    border-style: solid;
+    border-width: .4px;
+    padding-right: 70px;
+    padding-left: 30px;
+    border-color: rgba(56, 1, 56, 0.659);
+    border-radius: 2%;
+    background-color: rgba(23, 24, 23, 0.679);
+  
+    
+}
